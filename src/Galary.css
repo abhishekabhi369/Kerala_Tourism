@@ -1,0 +1,61 @@
+
+.logo-main{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+
+    
+}
+.logo-main  i{
+   width: 60px;
+    height: 60px;
+    padding: 10px;
+    line-height: 40px;
+    font-size: 60px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.yt-logo{
+    padding:1.5em;
+    background-color:#ba2025;
+    border-radius: 50%;
+}
+.fb-logo{
+    padding:1.5em;
+   background-color: #3b5999;
+   border-radius: 50%;
+}
+.twitter-logo{
+    padding:1.5em;
+    background-color: #27aae1;
+    border-radius: 50%;
+
+}
+
+.insta-logo{
+    padding:1.8em;
+    background-color:#5280a5;
+    border-radius: 50%;
+}
+.wts-logo{
+    padding:1.5em;
+    background-color:#2bff00;
+    border-radius: 50%;
+}
+.pint-logo{
+    padding:1.5em;
+    background-color:#ff1900;
+    border-radius: 50%;
+}
+.link-logo{
+    padding:1.5em;
+    background-color:#0c7ee9;
+    border-radius: 50%;
+}
+.connect-para h6{
+    text-align: center;
+    font-size: large;
+    font-weight: 100;
+    color: #28497c;
+}

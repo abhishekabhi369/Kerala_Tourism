@@ -1,0 +1,108 @@
+.plan-text{
+    margin: 1% 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    color: #036;
+}
+.img-wrapper {
+    background-color: #036;
+    width: 120px; /* Set a specific width */
+    height: 120px; /* Ensure a square shape */
+    border-radius: 50%; /* Makes it a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the image */
+    margin-left: 20px;
+    overflow: hidden; /* Hide overflowing content */
+  }
+  
+  .secondary-plan-img {
+    width: 40%; 
+  }
+  
+  .text-below {
+    text-align: center;
+    margin-top: 10px;
+    color:  #036;
+    margin-left:20%;
+  }
+  
+  .main-plan {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .img-wrapper:hover{
+    background-color: rgb(110, 245, 255);
+}
+
+ .acco-main{
+  background-color: #adb5bd81;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  align-items: center;
+ }
+ input[type=text] {
+  width: 100%;
+  padding: 5px 50px;
+  display: inline-block;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.p-para-acco{
+  font-size: 18px;
+  width: 70%;
+  color:  #036;
+  text-align: center;
+  font-weight: 100;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.search-button Button
+{
+  font-size: small;
+}
+@media  (max-width:760px){
+  .acco-main{
+    display: block;
+    height: 30vh;
+   
+   }
+    input[type=text] {
+    width: 80%;
+    padding: 5px 50px;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 5px;
+  }
+  .p-para-acco{
+    font-size: 16px;
+    width: 100%;
+    color:  #036;
+    text-align: center;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .search-button{
+    text-align: center;
+  }
+}
+@media  (max-width:520px){
+
+  .acco-main{
+    display: block;
+    height: max-content;
+   
+   }
+}

@@ -1,0 +1,17 @@
+.image-texts{
+    font-family: 'Quicksand';
+    padding: 2px 0;
+    color: #666;
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+    background: url(https://www.keralatourism.org/images/kt/caret-right.png) no-repeat;
+  background-position: 5px;
+  padding-left: 15px;
+    background-color: white;
+}
+img{
+  vertical-align: middle;
+  border: 0;
+}
